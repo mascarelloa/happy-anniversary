@@ -178,9 +178,11 @@ a:hover {
   .gallery {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   }
+
+
 }
 
-@media (min-width: 375px) {
+@media only screen and (max-width: 400px) {
   .timeel {
     font-size:2em;
 }
@@ -191,11 +193,11 @@ a:hover {
 }
 
 .note {
-    height:175vh;
+    height:100vh;
 }
 
 .note p {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
